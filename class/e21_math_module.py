@@ -1,8 +1,11 @@
-# Import the math module (as you want)
-
+# Import the math module (as you want
+import math
 
 # Make the Poisson distribution. The user must enter the parameters. Then print out the result
-
+lamb = float(input('Enter the parameter lambda: '))
+x = int(input('Enter the parameter x: '))
+Poisson = ((lamb ** x) * math.e ** (-lamb)) / math.factorial(x)
+print(Poisson)
 
 # Make an iterable with some numbers to calculate the product of all those numbers
 

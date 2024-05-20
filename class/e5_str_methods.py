@@ -12,3 +12,4 @@ num = 18055  # isalnum(), isalpha(), isdecimal(), isdigit(), isnumeric()
 # Create a string where the isspace() method returns True
 # Create a string where you can use removeprefix() and removesuffix(). Hint: use a URL
 # Create a valid object where you can use split() method
+

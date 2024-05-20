@@ -12,5 +12,14 @@ Any player that fails to perform the correct substitution or hesitates before an
 The last player remaining is the winner.
 Write a program that displays the answers for the first 100 numbers in the Fizz Buzz game. Each answer should be
 displayed on its own line.
-
 """
+for num in range(1, 101):
+    if num % 3 == 0 and num % 5 == 0:
+        print('fizz', 'buzz')
+    elif num % 3 == 0:
+        print('fizz')
+    elif num % 5 == 0:
+        print('buzz')
+    else:
+        print(num)
+

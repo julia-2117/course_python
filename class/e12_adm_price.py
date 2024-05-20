@@ -9,3 +9,23 @@ The user will enter a blank line to indicate that there are no more guests in th
 Then your program should display the admission cost for the group with an appropriate message.
 """
 
+# num_inv = int(input('Enter number of members: '))
+edad = 0
+cont = 0
+# for i in range(1, num_inv+1):
+while True:
+    edad = input('Enter the age: ')
+    if edad == '':
+        print('Los invitados han acabado')
+        break
+    edad = int(edad)
+    if edad <= 2 and edad > 0:
+        print('The person enters for free')
+    elif edad >= 3 and edad < 12:
+        cont += 14
+    elif edad >= 65:
+        cont += 18
+    else:
+        cont += 23
+
+print(f'The total to pay is: {cont}')

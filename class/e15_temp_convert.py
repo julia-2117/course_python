@@ -4,4 +4,11 @@ The table should include rows for all temperatures between 0 and 100 degrees Cel
 Include appropriate headings on your columns.
 The formula for converting between degrees Celsius and degrees Fahrenheit can be found on the Internet.
 """
+print('Celcius  Farenheit')
+for g in range(0, 101, 10):
+    f = g*(9/5)+32
+    print(g, f, sep='       ')
+
+
+
 
