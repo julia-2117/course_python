@@ -32,12 +32,14 @@ complex(4, 4)  # Tambien puede ser complex(real = 4, imag = 4)
 # numpy---paqueteria
 # Tensor Flow es para inteligencia artificial ----libraria
 
+# Modulos----funciones, clases y variables
 # Libreria ---- Conjunto de modulos Is a set of modules
-# Paqueteria ---- Archivo _init_.py
+# Paqueteria ---- Archivo _init_.py--forma de organizar modulos relacionados
 # Corre sus propios objetos o puede tener mas modulos dentro, y correr lo que le indiquemos
 
 
 #### Cuando tengo *integers es que puedo meter todos los enteros que quiero
 #### cuando tengo (a,b,*,rel_tol=0.3)
 # quiere decir que todo despues del * debe ir tal cual
+
 

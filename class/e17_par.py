@@ -45,4 +45,13 @@ some('hola', 'adios', seed='example')
 
 
 
+def f(*var, v1, v2):
+    print(var, v1, v2)
+
+
+f(1,2,3,4, v1=2,v2=3)
+
+
+
+
 
